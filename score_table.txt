@@ -1,0 +1,10 @@
+1 renad 80
+2 lama 70
+3 lina 60
+4 sara 70
+5 reem 60
+6 noura 50
+7 sara 0
+8 rashid 40
+9 mohamad 30
+10 
