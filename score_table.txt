@@ -1,0 +1,10 @@
+1 renad 80
+2 khozama 70
+3 haya 60
+4 waad 70
+5 anfal 60
+6 noura 50
+7 sara 0
+8 rashid 40
+9 mohamad 30
+10 

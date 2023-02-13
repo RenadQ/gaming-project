@@ -1,0 +1,191 @@
+ ________________________________________________________
+ ________________________________________________________
+| Q1: What will be the output of the following C++ code? | 
+|                                                        |
+| #include <iostream>                                    | 
+| #include <string>                                      | 
+| using namespace std;                                   | 
+| int main()                                             |
+| {                                                      |
+|	char s1[6] = "Hello";                            |
+|	char s2[6] = "World";                            |
+|	char s3[12] = s1 + " " + s2;                     |
+|	cout<<s3;                                        |
+|	return 0;                                        |
+| }                                                      |
+| a) Hello                                               |
+| b) World                                               |
+| c) Error                                               | 
+| d) Hello World                                         |
+|________________________________________________________|
+ ________________________________________________________
+| Q2: Which of the following C++ code will give error on |
+| compilation?                                           |
+|                                                        |
+| ================code 1=================                |
+| #include <iostream>                                    |
+| using namespace std;                                   |
+| int main(int argc, char const *argv[])                 |
+| {                                                      |
+|	cout<<"Hello World";                             |
+|	return 0;                                        |
+| }                                                      |
+| ========================================               |
+| ================code 2=================                |
+| #include <iostream>                                    |
+| int main()                                             |
+| {                                                      |
+|	std::cout<<"Hello World";                        |
+|	return 0;                                        |
+| }                                                      |
+| ========================================               |
+|  a) Code 1 only                                        |
+|  b) Neither code 1 nor code 2                          |
+|  c) Both code 1 and code 2                             |
+|  d) Code 2 only                                        |
+|________________________________________________________|
+ ________________________________________________________
+| Q3: Which of the following correctly declares an array |
+| in C++?                                                |
+| a) array{10};                                          |
+| b) array array[10];                                    |
+| c) int array;                                          |
+| d) int array[10];                                      |
+|________________________________________________________|
+ ________________________________________________________
+| Q4:What will be the output of the following C++        |
+| code snippet?                                          |
+|                                                        |
+|    #include <stdio.h>                                  |
+|    #include<iostream>                                  |
+|    using namespace std;                                |
+|    int main ()                                         |
+|   {                                                    |
+|       int array[] = {0, 2, 4, 6, 7, 5, 3};             |
+|       int n, result = 0;                               |
+|       for (n = 0; n < 8; n++)                          |
+|       {                                                |
+|           result += array[n];                          |
+|       }                                                |
+|       cout << result;                                  |
+|       return 0;                                        |
+|   }                                                    |
+|                                                        |
+|  a) 21                                                 |
+|  b) 27                                                 |
+|  c) 26                                                 |
+|  d) 25                                                 |
+|________________________________________________________|
+ ________________________________________________________
+| Q5:Which looping process is best used when the number  |
+| of iterations is known?                                |
+|  a) While loop                                         |
+|  b) For loop                                           |
+|  c) Do while loop                                      |
+|  d) all                                                |
+|________________________________________________________|
+ ________________________________________________________
+| Q6:what will be the output of the following C++ code?  |
+|  int main() {                                          |
+|  int i ;                                               |
+|  for (i = 0; i < 10; i++);                             |
+|  {                                                     |
+|   cout << i;                                           |
+|  }                                                     |
+|  return 0;                                             |
+| }                                                      |
+| a) 0123456789                                          |
+| b) 10                                                  |
+| c) 012345678910                                        |
+| d) compile time error                                  |
+|________________________________________________________|
+ ________________________________________________________
+| Q7:What should be output of below program              |
+| if use enter a = 5?                                    |
+| int main()                                             |
+| {                                                      |
+| int a;                                                 |
+| cin>>a;                                                | 
+| if (++a*5<=25)                                         |
+| {                                                      |
+| Cout<<"Hello";                                         |
+| }                                                      |
+|  else                                                  |
+| {                                                      |
+|  Cout<<"Bye";                                          |
+|  }                                                     |
+|  return 0;                                             |
+|   }                                                    |
+|    a) Hello                                            |
+|    b) Bye                                              |
+|    c) Undefined                                        |
+|    d) Compilation Error                                |
+|________________________________________________________|
+ ________________________________________________________
+| Q7:Find the output of below program ?                  |
+| int main()                                             |
+| {                                                      |
+|  int i=0 , x=0;                                        |
+|  do                                                    |
+| {                                                      |
+|  if (i%5==0)                                           |
+|  {                                                     |
+|  Cout<<x;                                              |
+|  x++;                                                  |
+|  }                                                     |
+|  ++i;                                                  |
+| }while(i<10);                                          |
+|  Cout<<x;                                              |
+|  return 0;                                             |
+|  }                                                     |
+|  a)012                                                 |
+|  b)12                                                  |
+|  c)0                                                   |
+|  d) 0123                                               |
+|________________________________________________________|
+ ________________________________________________________
+| Q8:What is currect syntax of for loop.?                | 
+|  a) for(initialization;condition; increment/decrement) |
+|  b) for(increment/decrement; initialization; condition)|
+|  c) for(initialization, condition, increment/decrement |
+|  d) None of These                                      |
+|________________________________________________________|
+ ________________________________________________________
+| Q9:What should be the output of below program          |
+|  int main()                                            |
+|  {                                                     |
+|  int a = 1;                                            |
+|  switch(a)                                             |
+|  {                                                     |
+|  case 1: cout<<"One";                                  | 
+|  case 2: cout<<"Two";                                  |
+|  case 3: cout<<"Three";                                |
+|  default: cout<<"Default";                             |
+|   }                                                    |
+|   return 0 ;                                           |
+|   }                                                    |
+|    a)one                                               |
+|    b) Compilation Error                                |
+|    c) Default                                          |
+|    d) OneTwoThree                                      |
+|________________________________________________________|
+ ________________________________________________________|
+| Q10:What will be the output of the following C++ code? |
+|   #include <iostream>                                  |
+|   using namespace std;                                 |
+|   int main() {                                         |
+|    int n ;                                             |
+|    for (n = 5; n < 0; n--)                             |
+|   {                                                    |
+|        cout << n;                                      |
+|        if (n == 3)                                     |
+|        break;                                          |
+|    }                                                   |
+|    return 0;                                           |
+|    }                                                   |
+|     a) 543                                             |
+|     b) 54                                              |
+|     c) 5432                                            |
+|     d) 53                                              |
+|________________________________________________________|
+ ________________________________________________________
