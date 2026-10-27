@@ -50,3 +50,11 @@ You can also open the files in Dev-C++ or Visual Studio and run them there.
 ## 🧠 Concepts used
 
 Structs · functions & header files · arrays · strings · pointers · file I/O (`ifstream` / `ofstream`) · bubble sort · namespaces · console colors
+
+---
+
+<details>
+<summary>🇸🇦 ملخص بالعربي</summary>
+
+لعبة أسئلة في الكونسول تساعد الطلاب يراجعون أساسيات مادة مقدمة في C++. تختار مستواك، تجاوب على أسئلة عن مخرجات أكواد حقيقية مع شرح الإجابة، وتنافس أصحابك في جدول النقاط. مشروع فريق في السنة الأولى.
+</details>
