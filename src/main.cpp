@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-#include "inro_header.h"
+#include "intro_header.h"
 #include <conio.h>
 #include <windows.h>
 #include <fstream> //to apply files in and out
@@ -799,7 +799,7 @@ else if (user.level==4){
     table score_table[n];
 	changeColor(0xfd);
  // Creating an input filestream
-	ifstream file("mcq_c++.txt");
+	ifstream file("data/mcq_questions.txt");
 
   // Checking if the file is open
   if (file.is_open()) {
@@ -812,7 +812,7 @@ else if (user.level==4){
 
 
    	// Open a file2 in read mode then update new user place in score_table txt file .  
- 	 ifstream file2("score_table.txt");  
+ 	 ifstream file2("data/score_table.txt");  
  	 char answerkey2[n];
     score=compare_calculatescore (answerkey2);
 	for (int i = 0; i < n; i++) { file2 >> score_table[i].id>> score_table[i].name >> score_table[i].score;  }// Read user name and level from the file and store it in array of users. 
@@ -852,7 +852,7 @@ break;
 	ofstream outfile; 
 	string comment; 
     cout << "Please enter your comment: "; 
-    outfile.open("comments.txt", ios::app); 
+    outfile.open("data/comments.txt", ios::app); 
     if(outfile.is_open()){
     cin.ignore(1,'\n');//to oved getline problem
     getline(cin,comment); 

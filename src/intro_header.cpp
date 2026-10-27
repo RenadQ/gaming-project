@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-#include "inro_header.h"
+#include "intro_header.h"
 #include <conio.h>
 #include <windows.h>
 
